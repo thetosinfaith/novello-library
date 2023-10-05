@@ -2,7 +2,7 @@ package dto.response.reader;
 
 import lombok.Data;
  @Data
- public class RegisterReaderResponse {
+ public class RegisterResponse {
      private String message;
 
     }

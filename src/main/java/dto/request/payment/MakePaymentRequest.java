@@ -1,4 +1,4 @@
-package dto.request;
+package dto.request.payment;
 
 public class MakePaymentRequest {
 }

@@ -1,11 +1,11 @@
-package service;
+package service.reader;
 
-import dto.request.reader.LoginReaderRequest;
-import dto.request.reader.RegisterReaderRequest;
-import dto.response.reader.ReaderLoginResponse;
-import dto.response.reader.RegisterReaderResponse;
+import dto.request.reader.LoginRequest;
+import dto.request.reader.RegisterRequest;
+import dto.response.reader.LoginResponse;
+import dto.response.reader.RegisterResponse;
 
 public interface ReaderService {
-    RegisterReaderResponse register (RegisterReaderRequest request);
-    ReaderLoginResponse login (LoginReaderRequest request);
+    RegisterResponse register (RegisterRequest request);
+    LoginResponse login (LoginRequest request);
 }

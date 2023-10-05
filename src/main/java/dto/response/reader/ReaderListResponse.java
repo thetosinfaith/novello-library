@@ -1,2 +1,6 @@
-package dto.response.reader;public class ReaderListResponse {
+package dto.response.reader;
+
+public class ReaderListResponse {
+    private String message;
+
 }

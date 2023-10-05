@@ -2,7 +2,7 @@ package dto.request.reader;
 
 import lombok.Data;
 @Data
-public class RegisterReaderRequest {
+public class RegisterRequest {
     private String fullName;
     private String email;
     private String password;
