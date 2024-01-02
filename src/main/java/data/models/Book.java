@@ -17,4 +17,7 @@ public class Book {
     private String publisher;
     private LocalDate publicationDate;
     private boolean canBeBorrowed;
+    private boolean canBeBought;
+    private boolean isBought;
+    private boolean isBorrowed;
 }

@@ -1,9 +1,9 @@
-package dto.response.reader;
+package dto.response.book;
 
 import lombok.Data;
 
 @Data
-public class LoginResponse {
+public class ListBookResponse {
     private String message;
 
 }

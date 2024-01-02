@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 
 public class Order {
     private Book bookBorrowed;
-    private Reader reader;
+    private ReaderModel reader;
     private LocalDateTime localDateTime;
     private int copies;
     private LocalDate dueDate;

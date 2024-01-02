@@ -3,7 +3,6 @@ package dto.response.book;
 import lombok.Data;
 
 @Data
-public class BookDetailsResponse {
+public class AddBookResponse {
     private String message;
-
 }

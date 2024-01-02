@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
 @Document
-public class Reader {
+public class ReaderModel {
     @Id
     private String id;
     private String fullName;
